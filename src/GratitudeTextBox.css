@@ -1,0 +1,32 @@
+.gratitude-textbox-container {
+  margin-top: 10px;
+  padding-top:10px;
+  text-align: center; /* Center-align the content */
+
+}
+
+
+/* input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+
+input[type="text"] {
+  font-family: "Work Sans", sans-serif;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  border-style: dotted double; 
+  background: none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: teal; /* Change border color when focused */
+}
+

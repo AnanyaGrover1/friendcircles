@@ -1,0 +1,65 @@
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh; /* Set it to whatever height you prefer */
+}
+
+
+
+
+.circle-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin:50px;
+}
+
+.center-circle {
+  display: flex; 
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #fb6793;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center; 
+  justify-content: center; 
+  
+}
+
+.center-circle-text{
+  text-align:center;
+}
+
+.circle {
+  /* Use flexbox for easier centering of the text. */
+  display: flex; 
+  /* Center the text vertically. */
+  align-items: center; 
+  /* Center the text horizontally. */
+  justify-content: center; 
+  /* Other styles (width, height, border-radius, etc.) will be inherited from circleStyle function */
+  color: white;
+  cursor: pointer; /* Change mouse pointer to hand */
+ 
+}
+
+.circle-text {
+  font-size: 14px; 
+  color: white; 
+  /* Prevent text selection when clicking on the circles. */
+  user-select: none; 
+}
+
+
+.right-circle-group {
+  transform: translate(350%, -260%);
+}
+
+.center-circle-group {
+  transform: translate(175%, -100%);
+}
+

@@ -21,7 +21,10 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@supabase/supabase-js": "^2.44.3",
     "react-particle-backgrounds": "^1.0.4",
+    "react-router-dom": "^6.24.1",
     "tsparticles": "^3.2.2"
   }
 }

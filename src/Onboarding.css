@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(circle, #c9e7e4, #fef6e4, #fdd2bf);
+  overflow-y: auto; /* Allow vertical scrolling */
+  position: relative;
+}
+
+.onboarding-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+.form-title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.form-description {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.circle-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Set width to 100% to fill container */
+  max-width: 100%; /* Ensure input does not exceed container width */
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
